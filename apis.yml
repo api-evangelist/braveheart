@@ -1,22 +1,71 @@
 aid: braveheart
-name: Braveheart
-description: Braveheart is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/braveheart.png
+name: Braveheart Bio
+description: >-
+  Braveheart Bio is a late clinical-stage biopharmaceutical company developing
+  novel therapeutics for hypertrophic cardiomyopathy (HCM) and related cardiac
+  conditions. Its lead candidate, BHB-1893, is a selective cardiac myosin
+  inhibitor (licensed as HRS-1893 from Hengrui Pharma) designed to reduce
+  excessive heart-muscle contraction and improve cardiac performance in patients
+  with obstructive and non-obstructive HCM. The San Francisco-based company
+  launched in November 2025 with a $185M Series A led by a16z alongside Forbion,
+  OrbiMed, Enavate Sciences, and Frazier Life Sciences, and filed for a Nasdaq
+  IPO in July 2026. Braveheart Bio is a corporate/scientific organization and
+  does not currently publish a public developer program, API, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/braveheart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Forbion
+- OrbiMed
+- Enavate Sciences
+- Frazier Life Sciences
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: biotechnology
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Biopharmaceutical
+- Cardiovascular
+- Hypertrophic Cardiomyopathy
+- Drug Development
+- Life Sciences
+- Clinical Stage
 apis: []
+common:
+- type: Website
+  url: https://www.braveheart.bio
+- type: About
+  url: https://www.braveheart.bio/about
+- type: Blog
+  url: https://www.braveheart.bio/news
+- type: PrivacyPolicy
+  url: https://www.braveheart.bio/privacy-policy
+- type: DomainSecurity
+  url: security/braveheart-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
