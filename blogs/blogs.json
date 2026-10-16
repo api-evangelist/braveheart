@@ -2,6 +2,10 @@
   "repo": "braveheart",
   "feeds": [
     {
+      "source": "https://www.braveheart.bio/news",
+      "error": "HTTPError"
+    },
+    {
       "source": "https://www.braveheart.bio/about",
       "feed_url": "https://www.braveheart.bio/about",
       "title": "",
@@ -10,5 +14,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
